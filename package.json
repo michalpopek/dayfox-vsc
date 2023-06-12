@@ -28,6 +28,6 @@
     "simple-git-hooks": "^2.8.1"
   },
   "simple-git-hooks": {
-    "pre-commit": "pretty-quick --staged"
+    "pre-commit": "pnpm pretty-quick --staged"
   }
 }
