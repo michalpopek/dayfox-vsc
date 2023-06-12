@@ -4,15 +4,15 @@ devDependencies:
   '@vscode/vsce':
     specifier: ^2.19.0
     version: 2.19.0
-  husky:
-    specifier: ^8.0.0
-    version: 8.0.0
   prettier:
     specifier: ^2.8.8
     version: 2.8.8
   pretty-quick:
     specifier: ^3.1.3
     version: 3.1.3(prettier@2.8.8)
+  simple-git-hooks:
+    specifier: ^2.8.1
+    version: 2.8.1
 
 packages:
 
@@ -432,12 +432,6 @@ packages:
     engines: {node: '>=8.12.0'}
     dev: true
 
-  /husky@8.0.0:
-    resolution: {integrity: sha512-4qbE/5dzNDNxFEkX9MNRPKl5+omTXQzdILCUWiqG/lWIAioiM5vln265/l6I2Zx8gpW8l1ukZwGQeCFbBZ6+6w==}
-    engines: {node: '>=14'}
-    hasBin: true
-    dev: true
-
   /ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
     dev: true
@@ -839,6 +833,12 @@ packages:
       simple-concat: 1.0.1
     dev: true
     optional: true
+
+  /simple-git-hooks@2.8.1:
+    resolution: {integrity: sha512-DYpcVR1AGtSfFUNzlBdHrQGPsOhuuEJ/FkmPOOlFysP60AHd3nsEpkGq/QEOdtUyT1Qhk7w9oLmFoMG+75BDog==}
+    hasBin: true
+    requiresBuild: true
+    dev: true
 
   /string_decoder@1.3.0:
     resolution: {integrity: sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==}
