@@ -1,4 +1,5 @@
 {
+  "name": "Dayfox",
   "colors": {
     "activityBar.background": "#e4dcd4",
     "activityBar.border": "#d3c7bb",
@@ -25,20 +26,22 @@
     "editor.selectionBackground": "#e7d2be",
     "editor.selectionHighlightBackground": "#e7d2be",
     "editor.wordHighlightBackground": "#e4dcd4",
+    "editorCodeLens.foreground": "#824d5b",
     "editorCursor.background": "#f6f2ee",
     "editorCursor.foreground": "#2848a9",
     "editorError.foreground": "#a5222f",
+    "editorGroupHeader.border": "#f6f2ee",
     "editorGroupHeader.tabsBackground": "#e4dcd4",
     "editorGroupHeader.tabsBorder": "#e4dcd4",
-    "editorGroupHeader.border": "#f6f2ee",
     "editorGutter.addedBackground": "#d0d6cd",
     "editorGutter.deletedBackground": "#e6c8c8",
     "editorGutter.modifiedBackground": "#cdd0e0",
     "editorHint.foreground": "#396847",
     "editorInfo.background": "#2848a9",
+    "editorLightBulb.foreground": "#2848a9",
+    "editorLineNumber.foreground": "#824d5b",
     "editorWarning.foreground": "#ac5402",
     "editorWidget.background": "#f6f2ee",
-    "editorWidget.border": "#d3c7bb",
     "editorWidget.foreground": "#3d2b5a",
     "editorWidget.resizeBorder": "#824d5b",
     "errorLens.errorBackground": "#deb4b5",
@@ -60,7 +63,6 @@
     "gitDecoration.ignoredResourceForeground": "#837a72",
     "gitDecoration.modifiedResourceForeground": "#ac5402",
     "gitDecoration.untrackedResourceForeground": "#2848a9",
-    "input.background": "#f2e9e1",
     "input.foreground": "#3d2b5a",
     "input.placeholderForeground": "#643f61",
     "inputOption.activeBackground": "#e4dcd4",
@@ -86,11 +88,11 @@
     "scrollbarSlider.background": "#e4dcd4",
     "scrollbarSlider.hoverBackground": "#dbd1dd",
     "selection.background": "#e7d2be",
-    "sideBar.background": "#f6f2ee",
-    "sideBar.border": "#e4dcd4",
+    "sideBar.background": "#e4dcd4",
+    "sideBar.border": "#d3c7bb",
     "sideBar.foreground": "#3d2b5a",
-    "sideBarSectionHeader.background": "#f6f2ee",
-    "sideBarSectionHeader.border": "#e4dcd4",
+    "sideBarSectionHeader.background": "#e4dcd4",
+    "sideBarSectionHeader.border": "#d3c7bb",
     "sideBarSectionHeader.foreground": "#3d2b5a",
     "sideBarTitle.foreground": "#3d2b5a",
     "statusBar.background": "#e4dcd4",
@@ -98,7 +100,7 @@
     "statusBar.debuggingBackground": "#ac5402",
     "statusBar.debuggingForeground": "#f6f2ee",
     "statusBar.foreground": "#3d2b5a",
-    "statusBar.noFolderBackground": "#6e33ce",
+    "statusBar.noFolderBackground": "#824d5b",
     "statusBar.noFolderForeground": "#f6f2ee",
     "statusBarItem.remoteBackground": "#2848a9",
     "statusBarItem.remoteForeground": "#f6f2ee",
@@ -130,12 +132,11 @@
     "titleBar.activeBackground": "#e4dcd4",
     "titleBar.activeForeground": "#3d2b5a",
     "titleBar.border": "#d3c7bb",
-    "tree.inactiveIndentGuidesStroke": "#e4dcd4",
+    "tree.inactiveIndentGuidesStroke": "#dbd1dd",
     "tree.indentGuidesStroke": "#a4c1c2",
     "widget.border": "#e4dcd4",
-    "editorLineNumber.foreground": "#824d5b"
+    "activityBar.dropBorder": "#2848a9"
   },
-  "name": "Dayfox",
   "tokenColors": [
     {
       "name": "Flow control, built-ins - this, super",
@@ -167,6 +168,7 @@
         "entity.name.type",
         "entity.other.inherited-class",
         "support.class",
+        "support.type.class",
         "entity.name.tag.css"
       ],
       "settings": {
@@ -198,6 +200,7 @@
       "name": "Primitive types, parameters, components, CSS units",
       "scope": [
         "support.type.primitive",
+        "support.type.builtin.primitive",
         "support.class.component",
         "variable.parameter",
         "keyword.other.unit"
@@ -238,24 +241,24 @@
       "name": "Markdown: headings",
       "scope": ["markup.heading", "punctuation.definition.heading.markdown"],
       "settings": {
-        "foreground": "#223d90",
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#223d90"
       }
     },
     {
       "name": "Markdown: link label",
       "scope": ["string.other.link.title.markdown"],
       "settings": {
-        "foreground": "#6e33ce",
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#6e33ce"
       }
     },
     {
       "name": "Markdown: link/image text",
       "scope": ["string.other.link.description.markdown"],
       "settings": {
-        "foreground": "#2848a9",
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#2848a9"
       }
     },
     {
@@ -265,24 +268,24 @@
         "markup.underline.link.image.markdown"
       ],
       "settings": {
-        "foreground": "#7f5152",
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#7f5152"
       }
     },
     {
       "name": "Markdown: bold",
       "scope": ["markup.bold.markdown"],
       "settings": {
-        "foreground": "#b3434e",
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#b3434e"
       }
     },
     {
       "name": "Markdown: italic",
       "scope": ["markup.italic.markdown"],
       "settings": {
-        "foreground": "#b3434e",
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#b3434e"
       }
     },
     {
@@ -296,8 +299,8 @@
       "name": "Markdown: inline string",
       "scope": ["markup.inline.raw.string.markdown"],
       "settings": {
-        "foreground": "#287980",
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#287980"
       }
     }
   ]
