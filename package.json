@@ -2,6 +2,10 @@
   "name": "dayfox-vsc",
   "displayName": "Dayfox",
   "description": "Port of the Dayfox variant from EdenEast/nightfox.nvim",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michalpopek/dayfox-vsc.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.79.0"
