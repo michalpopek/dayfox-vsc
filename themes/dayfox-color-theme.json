@@ -1,8 +1,8 @@
 {
   "name": "Dayfox",
   "colors": {
-    "activityBar.background": "#e4dcd4",
-    "activityBar.border": "#d3c7bb",
+    "activityBar.background": "#f6f2ee",
+    "activityBar.border": "#e4dcd4",
     "activityBar.dropBorder": "#2848a9",
     "activityBar.foreground": "#223d90",
     "activityBar.inactiveForeground": "#3d2b5a",
