@@ -2,11 +2,15 @@
   "name": "dayfox-vsc",
   "displayName": "Dayfox",
   "description": "Port of the Dayfox variant from EdenEast/nightfox.nvim",
+  "homepage": "https://github.com/michalpopek/dayfox-vsc/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/michalpopek/dayfox-vsc/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/michalpopek/dayfox-vsc.git"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.79.0"
   },
@@ -22,6 +26,7 @@
       }
     ]
   },
+  "icon": "resources/images/logo.png",
   "scripts": {
     "package": "vsce package"
   },
